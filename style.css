@@ -33,7 +33,7 @@ body {
 
 h2.titulo {
     color: #fff;
-    font-size: 38px;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -176,6 +176,8 @@ section.topo-do-site .flex {
 .topo-do-site .txt-topo-site p {
     color: #fff;
     margin: 40px 0;
+    font-size: 40;
+    
 }
 
 .topo-do-site .img-topo-site img {
@@ -278,16 +280,24 @@ section.portfolio .flex {
     justify-content: space-around;
     margin-top: 60px;
 }
+section.portfolio .ex_logo p{
+    font-size: 15px;
+}
+section p{
+    color: #fff;
+    border-top: 20px;
+}
 
 .img-port {
-    width: 760px;
-    height: 460px;
+    width: 2950px;
+    height: 446px;
     background-size: cover;
     background-position: 100% 0%;
     transition: 8s;
     cursor: pointer;
     border-radius: 40px;
     position: relative;
+    margin-bottom: 50px; 
 }
 
 .img-port:hover {
@@ -334,7 +344,7 @@ form {
 form input,
 form textarea {
     width: 100%;
-    background-color: #242424;
+    background-color: #000000;
     border: 0;
     outline: 0;
     padding: 20px 15px;
@@ -366,7 +376,7 @@ form .btn-enviar input {
 
 footer {
     padding: 40px 4%;
-    box-shadow: 0 0 40px 10px #ffffff1d;
+    box-shadow: 0 0 40px 10px #000000;
 }
 
 footer .flex {
@@ -386,8 +396,11 @@ footer .line-footer p i {
     font-size: 22px;
 }
 
-footer .line-footer p a {
+footer p {
+    border: 2px;
     color: #fff;
+    font-size: 22px;
+
 }
 
 @media screen and (max-width: 1020px) {
