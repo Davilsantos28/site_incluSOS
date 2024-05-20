@@ -292,7 +292,7 @@ section p{
     width: 700px;
     height: 446px;
     background-size: cover;
-    background-position: 100% 0%;
+    background-position: center;
     transition: 8s;
     cursor: pointer;
     border-radius: 40px;
