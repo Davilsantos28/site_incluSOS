@@ -30,6 +30,9 @@ body {
     cursor: pointer;
     transition: .2s;
 }
+.bnt-baixar button{
+    text-align: center;
+}
 
 h2.titulo {
     color: #fff;
