@@ -31,7 +31,16 @@ body {
     transition: .2s;
 }
 .bnt-baixar button{
-    text-align: center;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #610c27;
+    border: 0;
+    border-radius: 30px;
+    cursor: grab;
+    transition: .2s;
+    margin-top: 4px;
+    box-shadow: rgba(27, 27, 71, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 h2.titulo {
